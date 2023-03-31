@@ -1,0 +1,29 @@
+.weather-app-wrapper {
+    max-width: 38em;
+    margin: 7px auto;
+  }
+  .weather-app {
+    padding: 10px 15px 50px;
+    border: 1px solid rgba(0, 0, 255, 0.425);
+    border-radius: 5px;
+    font-family: "Google Sans", arial, sans-serif;
+  }
+  #search-form{
+    width: 100%;
+    display: flex;
+    gap:1rem;
+  }
+  input[type="search"]{
+    width: 70%;
+  }
+  input[type="submit"] {
+    background-color: rgba(12, 133, 233, 0.639);
+    color: rgb(14, 13, 13);
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 22px;
+  }
+  input[type="submit"]:hover {
+    background-color: rgba(12, 133, 233, 0.7);
+  }
