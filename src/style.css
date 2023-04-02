@@ -7,6 +7,7 @@
     border: 1px solid rgba(0, 0, 255, 0.425);
     border-radius: 5px;
     font-family: "Google Sans", arial, sans-serif;
+    background-color: rgba(127, 206, 255, 0.402);
   }
   #search-form{
     width: 100%;
@@ -69,19 +70,13 @@
   }
   .humid-wind{
    float: right;
-  }
-  ul {
-    margin: 0;
-    padding: 0;
-    margin-bottom: 30px;
+   margin-right: 1rem;
   }
   li {
     list-style: none;
     font-size: 20px;
     font-weight: bold;
-    line-height: 20px;
-    margin: 0;
-    padding: 0;
+    line-height: 25px;
   }
   li::first-letter {
     text-transform: capitalize;
