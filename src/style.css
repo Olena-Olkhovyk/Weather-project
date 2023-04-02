@@ -36,6 +36,7 @@
     margin:0.1rem auto;
     text-align: center;
     font-size: 170%;
+    font-weight: bold;
   }
   .temp-icon{
     margin:0.1rem auto;
@@ -59,8 +60,11 @@
   .units {
     position: relative;
     bottom:5px;
-    font-size: 15px;
+    font-size: 19px;
    }
+   .units > a {
+    font-weight: bold;
+  }
   .weather-temperature .active {
     color: black;
     cursor: default;
