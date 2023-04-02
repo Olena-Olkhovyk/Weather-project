@@ -30,4 +30,9 @@
   #city{
     font-size: 190%;
   }
-  
+  #date,
+  #description{
+    margin:0.1rem auto;
+    text-align: center;
+    font-size: 170%;
+  }
