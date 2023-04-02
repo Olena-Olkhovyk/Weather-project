@@ -36,3 +36,54 @@
     text-align: center;
     font-size: 170%;
   }
+  .temp-icon{
+    margin:0.1rem auto;
+    text-align: center;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 2rem;
+  }
+  #temperature,
+  .units {
+  position: relative;
+  right: 3rem;
+  }
+  #temperature {
+  bottom:-20px;
+  font-size: 50px;
+  }
+  .units {
+    position: relative;
+    bottom:5px;
+    font-size: 15px;
+   }
+  .weather-temperature .active {
+    color: black;
+    cursor: default;
+  }
+  .weather-temperature .active:hover {
+    text-decoration: none;
+  }
+  .humid-wind{
+   float: right;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  li::first-letter {
+    text-transform: capitalize;
+  }
+

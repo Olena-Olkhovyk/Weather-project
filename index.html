@@ -44,8 +44,31 @@
           </form>
           <!-- City placeholder -->
           <h1 id="city">Berlin</h1>
+          <!--Date placeholder-->
           <h2 id="date">Friday,20:13</h2>
+          <!-- weather description -->
           <h2 id="description">overcast clouds</h2>
+          <!--Weather description, temperature, and icon placeholder-->
+          <div class="weather-elements">
+            <div class="temp-icon">
+             <img
+             src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+             alt="weather-icon"
+             id="pic"
+             />
+             <span id="temperature">17</span>
+             <span class="units">
+                <a href="#" id="celsius-link" class="active">°C </a>|
+                <a href="#" id="fahrenheit-link">°F</a>
+             </span>
+            </div>
+            <div class="humid-wind">
+              <ul>
+                <li>Humidity: <span id="wet">100</span>%</li>
+                <li>Wind: <span id="wind">200</span>km/h</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
