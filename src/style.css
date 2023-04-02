@@ -27,3 +27,7 @@
   input[type="submit"]:hover {
     background-color: rgba(12, 133, 233, 0.7);
   }
+  #city{
+    font-size: 190%;
+  }
+  
