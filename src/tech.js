@@ -26,6 +26,7 @@ function displayTemperature(response){
     let cityElement=document.querySelector("#city");
     let humidityElement=document.querySelector("#humid");
     let windElement=document.querySelector("#wind");
+    let pressElement=document.querySelector("#press");
     let dateElement=document.querySelector("#date");
     let descriptionElement=document.querySelector("#description");
     let picElement=document.querySelector("#pic");
@@ -34,6 +35,7 @@ function displayTemperature(response){
     celsiusTemperature=response.data.temperature.current
     cityElement.innerHTML=response.data.city;
     humidityElement.innerHTML=response.data.temperature.humidity;
+    pressElement.innerHTML=response.data.temperature.pressure;
     windElement.innerHTML=response.data.wind.speed;
     dateElement.innerHTML=formatDate(response.data.time*1000);
     descriptionElement.innerHTML=response.data.condition.description;
