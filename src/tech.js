@@ -21,12 +21,14 @@ function formatDate(timestamp){
   return `${day}, ${hours}:${minutes}`;
 }
 function displayTemperature(response){
+  console.log(response.data);
     let temperatureElement=document.querySelector("#temperature");
     let cityElement=document.querySelector("#city");
     let humidityElement=document.querySelector("#humid");
     let windElement=document.querySelector("#wind");
     let dateElement=document.querySelector("#date");
     let descriptionElement=document.querySelector("#description");
+    let picElement=document.querySelector("#pic");
   
     temperatureElement.innerHTML=Math.round(response.data.temperature.current);
     cityElement.innerHTML=response.data.city;
@@ -34,9 +36,13 @@ function displayTemperature(response){
     windElement.innerHTML=response.data.wind.speed;
     dateElement.innerHTML=formatDate(response.data.time*1000);
     descriptionElement.innerHTML=response.data.condition.description;
-
+    picElement.setAttribute("src",
+    `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`);
+    picElement.setAttribute("alt",
+    response.data.condition.description);
 }
 
 let apiKey = 'bc7dota507232177ccef048eb1a1ae2a';
-let apiUrl = `https://api.shecodes.io/weather/v1/current?query=Kyiv&key=${apiKey}&units=metric`
+let city= "Kyiv";
+let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`
 axios.get(apiUrl).then(displayTemperature);
