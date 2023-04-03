@@ -65,11 +65,11 @@
    .units > a {
     font-weight: bold;
   }
-  .weather-temperature .active {
+  .units .active {
     color: black;
     cursor: default;
   }
-  .weather-temperature .active:hover {
+  .units .active:hover {
     text-decoration: none;
   }
   .humid-wind{
