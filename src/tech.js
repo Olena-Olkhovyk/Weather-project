@@ -2,11 +2,11 @@ function formatDate(timestamp){
    let date =new Date(timestamp);
    let hours=date.getHours();
    if(hours < 10){
-     hours=`0${hours}`
+     hours=`0${hours}`;
    }
    let minutes=date.getMinutes();
    if(minutes < 10){
-     minutes=`0${minutes}`
+     minutes=`0${minutes}`;
    }
    let days = [
     "Sunday",
@@ -32,7 +32,7 @@ function displayTemperature(response){
     let picElement=document.querySelector("#pic");
   
     temperatureElement.innerHTML=Math.round(celsiusTemperature);
-    celsiusTemperature=response.data.temperature.current
+    celsiusTemperature=response.data.temperature.current;
     cityElement.innerHTML=response.data.city;
     humidityElement.innerHTML=response.data.temperature.humidity;
     pressElement.innerHTML=response.data.temperature.pressure;
@@ -46,7 +46,7 @@ function displayTemperature(response){
 }
 function search(city){
   let apiKey = 'bc7dota507232177ccef048eb1a1ae2a';
-  let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`
+  let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
   axios.get(apiUrl).then(displayTemperature);
   }
 function handleSubmit(event){
