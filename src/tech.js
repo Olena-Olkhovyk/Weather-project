@@ -40,7 +40,7 @@ function displayTemperature(response){
     dateElement.innerHTML=formatDate(response.data.time*1000);
     descriptionElement.innerHTML=response.data.condition.description;
     picElement.setAttribute("src",
-    `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`);
+    `https://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`);
     picElement.setAttribute("alt",
     response.data.condition.description);
 }
