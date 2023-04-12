@@ -196,3 +196,31 @@ The web application behaved as expected with no errors or warnings.
    - However, a warning shows that 'let' is available in ES6 or Mozilla JS extensions 
 
 ![JSHint validator](./docs/js.PNG)
+
+## Deployment
+
+### Version Control
+
+The site was created using the Gitpod workspace and pushed to github to the remote repository ‘Weather-project’.
+
+The following git commands were used throughout the development to push code to the remote repository:
+
+
+```git add .``` - This command was used to add the file(s) to the staging area before they are committed.
+
+```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
+
+```git push``` - This command was used to push all committed code to the remote repository on github.
+
+### Deployment to Github Pages
+
+
+- This website was deployed to GitHub pages. The steps to deploy are as follows;
+ - In the GitHub repository, navigate to the Settings tab
+ - From the menu on the left select 'Pages'
+ - From the source section drop-down menu, select the main branch.
+ - Click 'Save'
+ - Refresh the page after a moment.
+ - A live link will be displayed when published successfully.
+
+ This is the live link: https://olena-olkhovyk.github.io/Weather-project/
