@@ -178,3 +178,21 @@ Celsius converts smoothly and correctly into highlighted fahrenheit upon a click
 Actual:
 
 The web application behaved as expected with no errors or warnings.
+
+### Validator Testing
+
+* HTML
+   - No errors were returned when passing through the official W3C validator
+
+![HTML Validator Results](./docs/HTML%20validator.PNG)
+
+* CSS
+   - No errors were returned when passing through the official Jigsaw validator
+
+![CSS Validator Results](./docs/CSS%20validator.PNG)
+
+* Javascript
+   - No errors were returned when passing through the official JSHint validator
+   - However, a warning shows that 'let' is available in ES6 or Mozilla JS extensions 
+
+![JSHint validator](./docs/js.PNG)
