@@ -107,3 +107,74 @@ The test was aimed at ensuring the following criteria were met:
 - HTML page lang attribute has been set.
 - Aria properties have been implemented correctly.
 - WCAG 2.1 Coding best practices are well followed.
+
+### Lighthouse Testing
+
+![Lighthouse report](./docs/Lighthouse.PNG)
+
+### Functional Testing
+
+**Form Testing**
+
+
+The form on the web application was tested to ensure it functioned as expected. Both correct data and incorrect data as well as an empty field submission were tested. 
+The following test scenarios were covered:
+
+* Scenario One - Correct Input data;
+
+
+Steps to test:
+
+1. Navigate to [Weather-project](https://olena-olkhovyk.github.io/Weather-project/)
+2. Type in a valid city name:
+3. Click on the "search" button.
+4. The current weather condition of the particular searched city is fully displayed on the central part of the web application with the corresponding city name.
+
+
+Expected:
+
+Form submits with no warnings or errors.
+
+Actual:
+
+
+The web application behaved as expected with no errors or warnings.
+
+* Scenario Two - Submitting an empty Field;
+
+
+Steps to test:
+
+1. Navigate to [Weather-project](https://olena-olkhovyk.github.io/Weather-project/)
+2. Leave the input field empty:
+3. Click on the "search" button.
+4. There is a (please fill out this field) notification.
+
+Expected:
+
+The form does not submit but prompts the user to fill out the field.
+
+Actual:
+
+The web application behaved as expected, the error alert message was displayed and the form did not submit.
+
+**Celsius and Fahrenheit Conversion**
+
+The celsius and fahrenheit units conversion were also tested to ensure it did the right conversion.
+
+Steps to test:
+
+1. Navigate to [Weather-project](https://olena-olkhovyk.github.io/Weather-project/)
+2. Click or tap on the fahrenheit link.
+3. The unit converts to fahrenheit correctly.
+4. '°F' turns the same color as the temperature digit to highlight selected unit.
+5. Click or tap the celsius link.
+6. The unit returns to its default celsius unit and color.
+
+Expected:
+
+Celsius converts smoothly and correctly into highlighted fahrenheit upon a click or tap. Fahrenheit converts back to the default celsius unit upon a click or tap.
+
+Actual:
+
+The web application behaved as expected with no errors or warnings.
