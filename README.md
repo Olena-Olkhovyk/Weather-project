@@ -224,3 +224,13 @@ The following git commands were used throughout the development to push code to 
  - A live link will be displayed when published successfully.
 
  This is the live link: https://olena-olkhovyk.github.io/Weather-project/
+
+ ## Credits
+
+ * [SheCodes](https://www.shecodes.io/workshops)
+   * I appreciate SheCodes support and opportunity to fetch weather data from them.
+<br>
+
+* Persons
+   * A big appreciation to Matt Delac who inspired and mentored me throughout the project especially for best practices.
+   * I thank Samuel Anderson for inspiring me and supporting me throughout the project.
