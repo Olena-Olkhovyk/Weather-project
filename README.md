@@ -29,3 +29,24 @@ View the live web application [here] (https://olena-olkhovyk.github.io/Weather-p
    * This helps the user to save the time of trying to manually convert units.
 
 ![Temperature unit conversions](./docs/units.PNG)
+
+## Design
+
+### Wireframes
+<br>
+Desktop version
+<br>
+
+![Desktop Version](./docs/desktop.PNG)
+
+<br>
+Tablet Version
+<br>
+
+![Tablet Version](./docs/ipad.PNG)
+
+<br>
+Phone Version
+<br>
+
+![Phone Version](./docs/phone.PNG)
