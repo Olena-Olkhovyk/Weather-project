@@ -234,3 +234,7 @@ The following git commands were used throughout the development to push code to 
 * Persons
    * A big appreciation to Matt Delac who inspired and mentored me throughout the project especially for best practices.
    * I thank Samuel Anderson for inspiring me and supporting me throughout the project.
+
+### Content 
+
+All the content with the exception of those listed in  credits sections of this document were originaly made by Olena Olkhovyk.
